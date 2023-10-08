@@ -1,0 +1,6 @@
+{
+    "go.testFlags": [
+        "-v",
+        "-coverpkg=github.com/hyperledger-labs/hyper-fabric-test-GOlang/chaincode/..."
+    ]
+}
