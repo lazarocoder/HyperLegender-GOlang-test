@@ -1,4 +1,4 @@
-# Goledger CC Tools Demo Chaincode 
+# Goledger Chaincode 
 
 ## Directory Structure
 
