@@ -77,8 +77,8 @@ curl -k -X POST \
   "asset": [
     {
       "@assetType": "book",
-      "title": "Meu Nome é Maria",
-      "author": "Maria Viana",
+      "title": "Paula",
+      "author": "Paula",
       "currentTenant": {
         "id": "318.207.920-48"
       },
@@ -96,8 +96,8 @@ curl -k -X POST \
   -d '{
         "key": {
           "@assetType": "book",
-          "author": "Maria Viana",
-          "title": "Meu Nome é Maria"
+          "author": "Fernando Monte",
+          "title": "Fernando Monte"
         },
         "resolve": true
       }'
@@ -111,7 +111,7 @@ curl -k -X PUT \
     "update": {
       "@assetType": "person",
       "id": "318.207.920-48",
-      "name": "Maria",
+      "name": "Paula",
       "readerScore": 75
     }
 }'
@@ -150,8 +150,8 @@ curl -k -X DELETE \
   -d '{
   "key": {
     "@assetType": "book",
-    "title": "Meu Nome é Maria",
-    "author": "Maria Viana"
+    "title": "Fernando Monte",
+    "author": "Fernando Monte"
   }
 }'
 
