@@ -14,12 +14,12 @@
 
 Dependencies for chaincode and chaincode API:
 
-- Go 1.14 or higher
+- Go 1.14/higher
 
 Dependencies for test environment:
 
-- Docker 20.10.5 or higher
-- Docker Compose 1.28.5 or higher
+- Docker 20.10.5/higher
+- Docker Compose 1.28.5/higher
 
 Intallation of the Chaincode API Go:
 
