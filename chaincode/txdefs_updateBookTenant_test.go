@@ -19,7 +19,7 @@ func TestUpdateBookTenant(t *testing.T) {
 		"@lastTouchBy": "org1MSP",
 		"@lastTx":      "createAsset",
 		"@assetType":   "person",
-		"name":         "Maria",
+		"name":         "Pamella",
 		"id":           "31820792048",
 		"height":       0.0,
 	}
@@ -28,8 +28,8 @@ func TestUpdateBookTenant(t *testing.T) {
 		"@lastTouchBy": "org2MSP",
 		"@lastTx":      "createAsset",
 		"@assetType":   "book",
-		"title":        "Meu Nome é Maria",
-		"author":       "Maria Viana",
+		"title":        "Meu Nome é Pamella",
+		"author":       "Pamella Viana",
 		// "currentTenant": map[string]interface{}{
 		// 	"@assetType": "person",
 		// 	"@key":       "person:47061146-c642-51a1-844a-bf0b17cb5e19",
@@ -77,8 +77,8 @@ func TestUpdateBookTenant(t *testing.T) {
 		"@lastTouchBy": "org1MSP",
 		"@lastTx":      "updateBookTenant",
 		"@assetType":   "book",
-		"title":        "Meu Nome é Maria",
-		"author":       "Maria Viana",
+		"title":        "Meu Nome é Pamella",
+		"author":       "Pamella Viana",
 		"currentTenant": map[string]interface{}{
 			"@assetType": "person",
 			"@key":       "person:47061146-c642-51a1-844a-bf0b17cb5e19",

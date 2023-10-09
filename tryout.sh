@@ -62,7 +62,7 @@ curl -k -X POST \
   "asset": [
     {
       "@assetType": "person",
-      "name": "Maria",
+      "name": "Pamella",
       "id": "318.207.920-48"
     }
   ]
@@ -77,8 +77,8 @@ curl -k -X POST \
   "asset": [
     {
       "@assetType": "book",
-      "title": "Paula",
-      "author": "Paula",
+      "title": "Pamella",
+      "author": "Pamella",
       "currentTenant": {
         "id": "318.207.920-48"
       },
@@ -96,8 +96,8 @@ curl -k -X POST \
   -d '{
         "key": {
           "@assetType": "book",
-          "author": "Fernando Monte",
-          "title": "Fernando Monte"
+          "author": "Pamella",
+          "title": "Pamella"
         },
         "resolve": true
       }'
@@ -111,7 +111,7 @@ curl -k -X PUT \
     "update": {
       "@assetType": "person",
       "id": "318.207.920-48",
-      "name": "Paula",
+      "name": "Pamella",
       "readerScore": 75
     }
 }'
@@ -150,8 +150,8 @@ curl -k -X DELETE \
   -d '{
   "key": {
     "@assetType": "book",
-    "title": "Fernando Monte",
-    "author": "Fernando Monte"
+    "title": "Pamella",
+    "author": "Pamella"
   }
 }'
 

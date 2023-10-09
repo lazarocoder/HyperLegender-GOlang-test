@@ -164,7 +164,7 @@ paths:
                 value:
                   asset:
                     - "@assetType": person
-                      name: "Maria"
+                      name: "Pamella"
                       id: "318.207.920-48"
       responses:
         "200":
@@ -302,7 +302,7 @@ paths:
                 value:
                   update:
                     "@assetType": "person"
-                    name: "Maria"
+                    name: "Pamella"
                     height: 1.66
         description: The asset must contain the primary key of the asset and the fields to be updated.
         required: true
@@ -331,7 +331,7 @@ paths:
                   type: string
             examples:
               deletePerson:
-                summary: 'Delete person with name "Maria"'
+                summary: 'Delete person with name "Pamella"'
                 value:
                   key:
                     "@assetType": person

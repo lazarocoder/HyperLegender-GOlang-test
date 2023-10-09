@@ -18,8 +18,8 @@ func TestGetNumberOfBooksFromLibrary(t *testing.T) {
 		"@lastTouchBy": "org2MSP",
 		"@lastTx":      "createAsset",
 		"@assetType":   "book",
-		"title":        "Meu Nome é Maria",
-		"author":       "Maria Viana",
+		"title":        "Meu Nome é Pamella",
+		"author":       "Pamella Viana",
 		"genres":       []interface{}{"biography", "non-fiction"},
 		"published":    "2019-05-06T22:12:41Z",
 	}
@@ -28,7 +28,7 @@ func TestGetNumberOfBooksFromLibrary(t *testing.T) {
 		"@lastTouchBy": "org3MSP",
 		"@lastTx":      "createNewLibrary",
 		"@assetType":   "library",
-		"name":         "Maria's Library",
+		"name":         "Pamella's Library",
 		"books": []map[string]interface{}{
 			{
 				"@assetType": "book",
@@ -55,7 +55,7 @@ func TestGetNumberOfBooksFromLibrary(t *testing.T) {
 	}
 	req := map[string]interface{}{
 		"library": map[string]interface{}{
-			"name": "Maria's Library",
+			"name": "Pamella's Library",
 		},
 	}
 	reqBytes, err := json.Marshal(req)

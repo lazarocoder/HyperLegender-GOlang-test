@@ -19,10 +19,10 @@ func TestCreateNewLibrary(t *testing.T) {
 		"@lastTouchBy": "org3MSP",
 		"@lastTx":      "createNewLibrary",
 		"@assetType":   "library",
-		"name":         "Maria's Library",
+		"name":         "Pamella's Library",
 	}
 	req := map[string]interface{}{
-		"name": "Maria's Library",
+		"name": "Pamella's Library",
 	}
 	reqBytes, err := json.Marshal(req)
 	if err != nil {

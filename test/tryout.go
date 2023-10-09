@@ -262,7 +262,7 @@ func tryout() []error {
 			"asset": []map[string]interface{}{
 				{
 					"@assetType": "person",
-					"name":       "Maria",
+					"name":       "Pamella",
 					"id":         "318.207.920-48",
 				},
 			},
@@ -276,7 +276,7 @@ func tryout() []error {
 				"@lastTx":      "createAsset",
 				"height":       0.0,
 				"id":           "31820792048",
-				"name":         "Maria",
+				"name":         "Pamella",
 			},
 		},
 	)
@@ -294,8 +294,8 @@ func tryout() []error {
 			"asset": []map[string]interface{}{
 				{
 					"@assetType": "book",
-					"title":      "Meu Nome é Maria",
-					"author":     "Maria Viana",
+					"title":      "Meu Nome é Pamella",
+					"author":     "Pamella Viana",
 					"currentTenant": map[string]interface{}{
 						"id": "318.207.920-48",
 					},
@@ -314,8 +314,8 @@ func tryout() []error {
 				"@key":         "book:a36a2920-c405-51c3-b584-dcd758338cb5",
 				"@lastTouchBy": "org2MSP",
 				"@lastTx":      "createAsset",
-				"title":        "Meu Nome é Maria",
-				"author":       "Maria Viana",
+				"title":        "Meu Nome é Pamella",
+				"author":       "Pamella Viana",
 				"currentTenant": map[string]interface{}{
 					"@assetType": "person",
 					"@key":       "person:47061146-c642-51a1-844a-bf0b17cb5e19",
@@ -341,8 +341,8 @@ func tryout() []error {
 		map[string]interface{}{
 			"key": map[string]interface{}{
 				"@assetType": "book",
-				"author":     "Maria Viana",
-				"title":      "Meu Nome é Maria",
+				"author":     "Pamella Viana",
+				"title":      "Meu Nome é Pamella",
 			},
 			"resolve": true,
 		},
@@ -352,8 +352,8 @@ func tryout() []error {
 			"@key":         "book:a36a2920-c405-51c3-b584-dcd758338cb5",
 			"@lastTouchBy": "org2MSP",
 			"@lastTx":      "createAsset",
-			"title":        "Meu Nome é Maria",
-			"author":       "Maria Viana",
+			"title":        "Meu Nome é Pamella",
+			"author":       "Pamella Viana",
 			"currentTenant": map[string]interface{}{
 				"@assetType":   "person",
 				"@key":         "person:47061146-c642-51a1-844a-bf0b17cb5e19",
@@ -361,7 +361,7 @@ func tryout() []error {
 				"@lastTx":      "createAsset",
 				"height":       0.0,
 				"id":           "31820792048",
-				"name":         "Maria",
+				"name":         "Pamella",
 			},
 			"genres": []interface{}{
 				"biography",
@@ -384,7 +384,7 @@ func tryout() []error {
 			"update": map[string]interface{}{
 				"@assetType": "person",
 				"id":         "318.207.920-48",
-				"name":       "Maria",
+				"name":       "Pamella",
 				"height":     1.66,
 			},
 		},
@@ -396,7 +396,7 @@ func tryout() []error {
 			"@lastTx":      "updateAsset",
 			"height":       1.66,
 			"id":           "31820792048",
-			"name":         "Maria",
+			"name":         "Pamella",
 		},
 	)
 	if err != nil {
@@ -423,7 +423,7 @@ func tryout() []error {
 			"@lastTx":      "updateAsset",
 			"height":       1.66,
 			"id":           "31820792048",
-			"name":         "Maria",
+			"name":         "Pamella",
 		},
 	)
 	if err != nil {
@@ -453,7 +453,7 @@ func tryout() []error {
 					"@key":         "book:a36a2920-c405-51c3-b584-dcd758338cb5",
 					"@lastTouchBy": "org2MSP",
 					"@lastTx":      "createAsset",
-					"author":       "Maria Viana",
+					"author":       "Pamella Viana",
 					"currentTenant": map[string]interface{}{
 						"@assetType":   "person",
 						"@key":         "person:47061146-c642-51a1-844a-bf0b17cb5e19",
@@ -461,13 +461,13 @@ func tryout() []error {
 						"@lastTx":      "updateAsset",
 						"height":       1.66,
 						"id":           "31820792048",
-						"name":         "Maria"},
+						"name":         "Pamella"},
 					"genres": []interface{}{
 						"biography",
 						"non-fiction",
 					},
 					"published": "2019-05-06T22:12:41Z",
-					"title":     "Meu Nome é Maria",
+					"title":     "Meu Nome é Pamella",
 				},
 			},
 		},
@@ -494,8 +494,8 @@ func tryout() []error {
 			"@key":         "book:a36a2920-c405-51c3-b584-dcd758338cb5",
 			"@lastTouchBy": "org2MSP",
 			"@lastTx":      "createAsset",
-			"title":        "Meu Nome é Maria",
-			"author":       "Maria Viana",
+			"title":        "Meu Nome é Pamella",
+			"author":       "Pamella Viana",
 			"currentTenant": map[string]interface{}{
 				"@assetType": "person",
 				"@key":       "person:47061146-c642-51a1-844a-bf0b17cb5e19",
@@ -531,7 +531,7 @@ func tryout() []error {
 			"@lastTx":      "updateAsset",
 			"height":       1.66,
 			"id":           "31820792048",
-			"name":         "Maria",
+			"name":         "Pamella",
 		},
 	)
 	if err != nil {

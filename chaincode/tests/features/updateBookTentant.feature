@@ -11,8 +11,8 @@ Feature: Update Book Tentant
             {
                 "asset": [{
                         "@assetType": "book",
-                        "title":      "Meu Nome é Maria",
-                        "author":     "Maria Viana"
+                        "title":      "Meu Nome é Pamella",
+                        "author":     "Pamella Viana"
                     }]
             }
             """
@@ -21,7 +21,7 @@ Feature: Update Book Tentant
            {
                 "asset": [{
                     "@assetType": "person",
-                    "name": "Maria",
+                    "name": "Pamella",
                     "id": "31820792048"
                 }]
 	        }

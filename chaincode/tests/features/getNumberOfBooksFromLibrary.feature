@@ -11,8 +11,8 @@ Feature: Get Number Of Books From Library
                 "asset": [
                     {
                         "@assetType": "book",
-                        "title":      "Meu Nome é Maria",
-                        "author":     "Maria Viana"
+                        "title":      "Meu Nome é Pamella",
+                        "author":     "Pamella Viana"
                     }
                 ]
             }
@@ -22,7 +22,7 @@ Feature: Get Number Of Books From Library
            {
                 "asset": [{
                     "@assetType": "library",
-                    "name": "Maria's Library",
+                    "name": "Pamella's Library",
                     "books": [
                         {
                             "@assetType": "book",
