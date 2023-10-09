@@ -1,14 +1,12 @@
 # Goledger Chaincode 
 
-## Directory Structure
+## Directory Structure:
 
 - `/fabric`: Fabric network v2.2 used as a test environment
 - `/chaincode`: chaincode-related files
 - `/ccapi`: chaincode REST API in Golang project
 
-## Development
-
-The `cc-tools` library has been tested in Fabric v1.4, v2.2 and v2.4 networks.
+## Development:
 
 Dependencies for chaincode and chaincode API:
 
@@ -27,16 +25,12 @@ $ cd ccapi; go mod vendor; cd ..
 ```
 
 
-## Deploying test env in v2.2
+## Deploying test env: 
 
-After installing, use the script `./startDev.sh` in the root folder to start the development environment. It will
-start all components of the project with 3 organizations.
+After installing, you must use the script `./startDev.sh` in the root folder to start the development environment. 
+It will start all components of the project with (3) organizations.
 
-If you want to deploy with 1 organization, run the command `./startDev.sh -n 1`.
-
-To apply chaincode changes, run `$ ./upgradeCC2.sh <version> <sequence>` with a version higher than the current one (starts with 0.1). Append `-n 1` to the command if running with 1 organization.
-
-To apply CC API changes, run `$ ./reloadCCAPI.sh`.
+To deploy with 1 organization, run the command `./startDev.sh -n 1`.
 
 ## Automated tryout and test
 
