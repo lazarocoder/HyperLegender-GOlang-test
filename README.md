@@ -1,4 +1,8 @@
-# Goledger Chaincode 
+# Chaincode 
+
+# Overview
+
+"The interface is made available in a Docker image. We have a transaction in which we can start three organizations (orgs) that communicate with each other within a blockchain network. The purpose of the application is to perform a CRUD operation, which involves simulating a book, a secret, and a library, with secure contracts that enable the execution of transactions and data updates in each organization that is part of the same network."
 
 ## Directory Structure:
 
