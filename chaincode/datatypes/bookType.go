@@ -8,12 +8,6 @@ import (
 	"github.com/hyperledger-labs/cc-tools/errors"
 )
 
-// Example of a custom data type using enum-like structure (iota)
-// This allows the use of verification by const values instead of float64, improving readability
-// Example:
-// 		if assetMap["bookType"].(float64) == (float64)(BookTypeHardcover)
-// 			...
-
 type BookType float64
 
 const (

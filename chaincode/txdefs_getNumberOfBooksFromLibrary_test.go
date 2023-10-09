@@ -12,7 +12,6 @@ import (
 func TestGetNumberOfBooksFromLibrary(t *testing.T) {
 	stub := mock.NewMockStub("org2MSP", new(CCDemo))
 
-	// Setup state
 	setupBook := map[string]interface{}{
 		"@key":         "book:a36a2920-c405-51c3-b584-dcd758338cb5",
 		"@lastTouchBy": "org2MSP",

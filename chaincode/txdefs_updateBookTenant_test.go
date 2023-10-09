@@ -13,7 +13,6 @@ import (
 func TestUpdateBookTenant(t *testing.T) {
 	stub := mock.NewMockStub("org1MSP", new(CCDemo))
 
-	// State setup
 	setupPerson := map[string]interface{}{
 		"@key":         "person:47061146-c642-51a1-844a-bf0b17cb5e19",
 		"@lastTouchBy": "org1MSP",
@@ -30,10 +29,6 @@ func TestUpdateBookTenant(t *testing.T) {
 		"@assetType":   "book",
 		"title":        "Meu Nome é Pamella",
 		"author":       "Pamella Viana",
-		// "currentTenant": map[string]interface{}{
-		// 	"@assetType": "person",
-		// 	"@key":       "person:47061146-c642-51a1-844a-bf0b17cb5e19",
-		// },
 		"genres":    []interface{}{"biography", "non-fiction"},
 		"published": "2019-05-06T22:12:41Z",
 	}
