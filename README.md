@@ -1,4 +1,3 @@
-# Goledger Chaincode 
 
 ## Directory Structure:
 
