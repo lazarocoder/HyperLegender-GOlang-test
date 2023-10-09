@@ -34,7 +34,7 @@ $ cd ccapi; go mod vendor; cd ..
 After installing, you must use the script `./startDev.sh` in the root folder to start the development environment. 
 It will start all components of the project with (3) organizations.
 
-To deploy with 1 organization, run the command `./startDev.sh -n 1`.
+To deploy with (1) organization, run the command `./startDev.sh -n 1`.
 
 ## Automated tryout and test
 
